@@ -2,31 +2,17 @@
   "quiz": [
     {
       "question": "What's React JS",
+      "id": "10",
       "suggestion": [
-        {
-          "answer": "Front Framework",
-          "type": "text",
-          "correct": true
-        },
-        {
-          "answer": "Backend Framework",
-          "type": "text",
-          "correct": false
-        },
-        {
-          "answer": "Security tools",
-          "type": "text",
-          "correct": false
-        },
-        {
-          "answer": "DBMS",
-          "type": "text",
-          "correct": false
-        }
+        { "answer": "Front Framework", "type": "text", "correct": true },
+        { "answer": "Backend Framework", "type": "text", "correct": false },
+        { "answer": "Security tools", "type": "text", "correct": false },
+        { "answer": "DBMS", "type": "text", "correct": false }
       ]
     },
     {
       "question": "What is JSX in React?",
+      "id": "11",
       "suggestion": [
         {
           "answer": "A syntax extension for JavaScript",
@@ -53,6 +39,7 @@
     {
       "question": "Identify the component with props (properties) passed to it.",
       "image": "[Image React component with props]",
+      "id": "12",
       "suggestion": [
         {
           "answer": "Component A: <MyComponent message='Hello!' />",
@@ -78,6 +65,7 @@
     },
     {
       "question": "What is the purpose of a key prop in React lists?",
+      "id": "13",
       "suggestion": [
         {
           "answer": "To identify unique items for efficient rendering",
@@ -103,6 +91,7 @@
     },
     {
       "question": "How do you prevent a component from re-rendering unnecessarily in React?",
+      "id": "14",
       "suggestion": [
         {
           "answer": "By using memoization techniques like React.memo",
@@ -128,6 +117,7 @@
     },
     {
       "question": "What is the difference between controlled and uncontrolled components in React?",
+      "id": "15",
       "suggestion": [
         {
           "answer": "Controlled components: Value managed by state, uncontrolled components: Value managed by DOM",
